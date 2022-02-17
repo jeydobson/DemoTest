@@ -31,10 +31,7 @@ int main(int argc, char** argv)
   try
   {
 
-    Eigen::MatrixXd m(2,2);
-    std::cout << "Printing 2x2 Eigen::MatrixXd ..." << std::endl << m << std::endl;
-
-    std::cout << "Calculating ... " << mp::MyFirstAddFunction(1, 2) << std::endl;
+    std::cout << "Hello, World!" << std::endl;
 
     returnStatus = EXIT_SUCCESS;
   }
